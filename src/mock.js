@@ -49,10 +49,10 @@ export const mockData = {
   careers: {
     title: "We're building the future of AI-powered development. Want to join us?",
     positions: [
-      { title: "AI Engineer", type: "Full-time", location: "Remote" },
-      { title: "Full Stack Developer", type: "Full-time", location: "San Francisco" },
-      { title: "Product Designer", type: "Full-time", location: "Remote" },
-      { title: "DevOps Engineer", type: "Full-time", location: "New York" }
+      { title: "AI Engineer", type: "Full-time", location: "Vizag / Hyderabad" },
+      { title: "Full Stack Developer", type: "Full-time", location: "Vizag / Hyderabad" },
+      { title: "Product Designer", type: "Full-time", location: "Vizag / Hyderabad" },
+      { title: "DevOps Engineer", type: "Full-time", location: "Vizag / Hyderabad" }
     ]
   },
   
