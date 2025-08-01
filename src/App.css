@@ -1,0 +1,48 @@
+/* Gitely Landing Page Styles */
+.App {
+  min-height: 100vh;
+}
+
+/* Professional button hover effects */
+.btn-primary {
+  @apply bg-red-600 hover:bg-red-700 text-white font-semibold rounded-xl transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-2 border-gray-300 hover:border-gray-400 text-gray-700 hover:text-black font-semibold rounded-xl transition-colors duration-200;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply hover:shadow-lg hover:border-red-200 transition-all duration-300;
+}
+
+/* Clean animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Professional form styling */
+.form-input {
+  @apply bg-white border border-gray-300 focus:border-red-500 focus:ring-red-500/20 rounded-xl;
+}
+
+/* Subtle gradient backgrounds */
+.gradient-subtle {
+  background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f4 100%);
+}
+
+.gradient-dark {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+}
