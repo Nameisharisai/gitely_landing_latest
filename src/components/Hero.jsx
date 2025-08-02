@@ -21,9 +21,9 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden pt-16">
       {/* Pure black background */}
       <div className="absolute inset-0 bg-black"></div>
-      
-      {/* Content - properly centered accounting for navbar */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto py-20">
+
+      {/* Content - perfectly centered */}
+      <div className="relative z-10 flex flex-col items-center justify-center w-full text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-10 min-h-[70vh] mt-16" style={{ minHeight: 'calc(100vh - 4rem)' }}>
         {/* Main headline */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight tracking-tight">
           {mockData.hero.headline}
